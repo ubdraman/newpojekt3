@@ -1,0 +1,72 @@
+h1{
+    color: aqua;
+    font: 2em sans-serif;
+}
+{
+    margin: 1px;
+    padding:2px;
+}
+.menubar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+.menubar ul{
+    list-style: none;
+}
+.menubar ul li{
+    float: left;
+}
+.menubar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(246, 240, 240);
+    padding: 20px; 
+    text-transform: uppercase;
+}
+.menubar ul li a:hover{
+    color: rgb(216, 4, 4);
+    transition: 2s ease;
+}
+body{
+    background-image: url("image/home.jpg");
+    background-position: center;
+
+}
+section{
+    color: honeydew;
+}
+.about{
+    background-color: rgb(23, 21, 21);
+    height: 500px;
+    width: 100%;
+    margin-top: 300px;
+}
+.col-md-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 95, 236);
+    box-shadow: 4px 4px rgb(242, 236, 242);
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: burlywood;
+    font-size: 20px;
+    font: 500px;
+    text-transform: uppercase;
+    text-shadow: 1px 0 rgb(204, 5, 5), 0 1px rgb(75, 100, 2), 1px 0 black, 0 -1px rgb(110, 109, 109);
+}
+.card-body{
+    background-color: burlywood;
+    text-shadow: 1px 0 rgb(169, 14, 14), 0 1px black, 1px 0 rgb(235, 5, 5), 0 -1px rgb(155, 11, 11);
+}
+.card{
+    box-shadow: 3px 5px white;
+}

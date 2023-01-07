@@ -1,0 +1,56 @@
+.main{
+  background-image: url('images/banner3.png');
+  height: 800px;
+  width: 100%;
+}
+.main h1{
+  text-align: right;
+  margin-right: 200px;
+  color: white;
+}
+.main p{
+  text-align: right;
+  margin-right: 200px;
+  color: white;
+  font-size: smaller;
+  font-weight: 200;
+}
+.main .btn{
+  float: right;
+  margin-right: 200px;
+  height: 100px;
+  width: 250px;
+  background-color:white;
+  color: skyblue;
+  border-radius: 15px;
+}
+.topic{
+  height: 1200px;
+  width: 100%;
+}
+.topic p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: burlywood;
+}
+.end{
+  margin-top: 50px;
+  height: 300px;
+  width: 100%;
+  background-color: black;
+}
+.end .email{
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: #000000;
+color: white;
+float: right;
+margin-right: 20px;
+}
